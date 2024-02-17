@@ -1,0 +1,201 @@
+@import url(root.css);
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 0.1rem;
+}
+
+.chat-box {
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #f1757f;
+	color: white;
+	border: 1px solid #f1757f;
+}
+
+.open-chat {
+	padding: 20px;
+	margin: 10px;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.grille-flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.img-1 {
+	background-image: url("../assets/formation.jpg");
+	background-size: cover;
+}
+
+.img-2 {
+	background-image: url("../assets/jeunes.jpg");
+	background-size: cover;
+}
+
+.colonne {
+	width: 48%;
+	height: 390px;
+}
+
+.grille-flexbox-2 {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	width: 25%;
+	margin: 20px;
+	height: 200px;
+}
+
+.card h2 {
+	color: rgb(128, 128, 255);
+}
+
+.grid-card {
+	display: grid;
+	grid-template-rows: 120px auto;
+	margin-bottom: 70px;
+}
+
+.grid-card > div {
+	display: grid;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	grid-template-columns: 20% 75%;
+	column-gap: 5%;
+}
+
+.grid-card > div > i {
+	color: rgb(128, 128, 255);
+	font-size: 50px;
+}
+
+.grid-card > div .info {
+	background-color: #ebebeb;
+	margin: 50px 0;
+}
+
+section {
+	margin: 20px 0;
+}
+
+.colonne > * {
+	text-align: center;
+}
+
+.colonne h2 {
+	font-size: 35px;
+}
+
+.colonne p {
+	margin: 0px 50px;
+}
+
+.boutton {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.boutton-1 {
+	background-color: #f1757f;
+	margin-right: 5px;
+	color: #ffffff;
+	padding: 15px 20px;
+}
+
+.boutton-2 {
+	background-color: white;
+	margin-right: 5px;
+	color: #db3442;
+	padding: 15px 20px;
+}
+
+.boutton:hover {
+	opacity: 0.9;
+}
+
+.formations {
+	display: block;
+	margin: 20px 40px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #f1757f;
+	border-radius: 20px;
+	color: white;
+	border: 1px solid #f1757f;
+	transition: all 0.3s;
+}
+
+.formations:hover {
+	background-color: white;
+	color: #f1757f;
+}
+
+.banner {
+	background: url("../assets/banner.jpg");
+	background-size: cover;
+	height: 550px;
+	margin: 0;
+}
+
+.accroche {
+	position: relative;
+	left: -150px;
+	padding-top: 5%;
+	margin-top: 40px;
+}
+
+.accroche h3 {
+	font-weight: 300em;
+	font-size: 50px;
+	text-align: left;
+	margin: 0px;
+	padding-top: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.accroche p {
+	font-size: 30px;
+	text-align: left;
+	color: rgb(255, 255, 255);
+}
+
+.site_name {
+	position: absolute;
+	left: 20px;
+	margin: 10px;
+	font-size: 30px;
+	color: black;
+}
+
+header {
+	background-image: url("../assets/fond.jpeg");
+	height: 20px;
+	text-align: center;
+	position: relative;
+	color: white;
+}

@@ -1,0 +1,119 @@
+.all_formation {
+	margin: 50px 0;
+}
+
+.all_formation h2 {
+	font-size: 40px;
+	margin-left: 50px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.part-formation {
+	margin: 10px 40px;
+	padding: 20px;
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 255, 0.2);
+	border-radius: 5px;
+	background: #fefefe;
+}
+
+.part-formation h3 {
+	margin: 2px;
+	color: #fc5260;
+}
+
+.all_formation h3 {
+	font-size: 30px;
+}
+
+.description-part {
+	width: 90%;
+	text-align: justify;
+}
+
+.banner-formation {
+	background: url("../assets/fond.png");
+	background-size: cover;
+	height: 550px;
+}
+
+.banner-formation p,
+.banner-formation h3 {
+	color: rgb(34, 34, 34);
+}
+
+.row-formation {
+	display: flex;
+	justify-content: center;
+}
+
+.formation {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 22%;
+	margin: 10px;
+	height: fit-content;
+	background-color: white;
+	transition: all 0.2s;
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.rating {
+	margin-left: 20px;
+}
+
+.rating > i {
+	color: rgb(255, 230, 0);
+	font-size: 18px;
+}
+
+.formation:hover {
+	left: -7px;
+	top: -7px;
+	box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.formation h4,
+.formation a,
+.price,
+.description-formation {
+	margin: 20px;
+}
+
+.price {
+	font-weight: bolder;
+}
+
+.description-formation {
+	font-size: 13px;
+}
+
+.head-formation {
+	width: 100%;
+	height: 180px;
+	opacity: 0.9;
+	transition: 0.2s opacity;
+}
+
+.head-formation:hover {
+	opacity: 1;
+}
+
+.button-formation {
+	display: block;
+	margin: auto 0px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #fc5260;
+	color: white;
+	border: 1px solid #fc5260;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.description-formation {
+	text-align: start;
+}
