@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/chatbot.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>WELEARN - Home</title>
 
 </head>
@@ -19,9 +24,8 @@
                 style="color: rgb(219, 52, 66);">LEARN</span></h1>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Accueil</a></li>
+                <li><a href="#" id="active">Accueil</a></li>
                 <li><a href="pages/formation.html">Formations</a></li>
-                <li><a href="#abonnements">Abonnements</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#footer">A propos</a></li>
             </ul>
@@ -37,9 +41,11 @@
         </div>
     </div>
     <div class="container open-chat">
-        <p>Vous avez des questions ? N'hésitez pas à venir nous en parler directement</p>
+        <p>Vous avez des questions ? N'hésitez pas à venir nous les posées</p>
+
         <button class=" chat-box" onclick="showChat()">Ouvrir le Chat</button>
     </div>
+    <div class="chat-icon"></div>
     <div class="chatbot" id="chatbot">
         <div class="box">
             <div class="head-chat">

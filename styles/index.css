@@ -15,9 +15,10 @@ body {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-	background-color: #f1757f;
+	background-color: #db3442;
 	color: white;
-	border: 1px solid #f1757f;
+	border: 1px solid #db3442;
+	border-radius: 10px;
 }
 
 .open-chat {
@@ -65,13 +66,17 @@ body {
 	color: rgb(128, 128, 255);
 }
 
+.colonne p {
+	text-align: start justify;
+}
+
 .grid-card {
 	display: grid;
 	grid-template-rows: 120px auto;
 	margin-bottom: 70px;
 }
 
-.grid-card > div {
+.grid-card>div {
 	display: grid;
 	align-items: center;
 	align-content: center;
@@ -80,12 +85,12 @@ body {
 	column-gap: 5%;
 }
 
-.grid-card > div > i {
+.grid-card>div>i {
 	color: rgb(128, 128, 255);
 	font-size: 50px;
 }
 
-.grid-card > div .info {
+.grid-card>div .info {
 	background-color: #ebebeb;
 	margin: 50px 0;
 }
@@ -94,7 +99,7 @@ section {
 	margin: 20px 0;
 }
 
-.colonne > * {
+.colonne>* {
 	text-align: center;
 }
 
@@ -114,11 +119,12 @@ section {
 	text-align: center;
 	text-decoration: none;
 	cursor: pointer;
-	transition: background-color 0.3s, color 0.3s;
+	transition: all .5s;
+	border-radius: 10px;
 }
 
 .boutton-1 {
-	background-color: #f1757f;
+	background-color: #db3442;
 	margin-right: 5px;
 	color: #ffffff;
 	padding: 15px 20px;
@@ -132,7 +138,7 @@ section {
 }
 
 .boutton:hover {
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 .formations {
@@ -143,10 +149,10 @@ section {
 	text-align: center;
 	text-decoration: none;
 	cursor: pointer;
-	background-color: #f1757f;
+	background-color: #db3442;
 	border-radius: 20px;
 	color: white;
-	border: 1px solid #f1757f;
+	border: 1px solid #db3442;
 	transition: all 0.3s;
 }
 

@@ -18,6 +18,12 @@ body {
     text-align: center;
 }
 
+.head-signin {
+    position: absolute;
+    top: 0;
+    font-size: 4em;
+}
+
 h2 {
     color: #333;
 }
@@ -29,6 +35,7 @@ form {
 label {
     display: block;
     margin-bottom: 8px;
+    text-align: left;
     color: #333;
 }
 

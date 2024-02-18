@@ -3,10 +3,12 @@
 }
 
 .all_formation h2 {
-	font-size: 40px;
-	margin-left: 50px;
+	display: block;
+	font-size: 4em;
 	padding-top: 30px;
 	text-align: center;
+	margin: 0;
+	margin-top: 30px;
 }
 
 .part-formation {
@@ -48,6 +50,7 @@
 }
 
 .formation {
+	border-radius: 10px;
 	position: relative;
 	left: 0;
 	top: 0;
@@ -63,9 +66,15 @@
 	margin-left: 20px;
 }
 
-.rating > i {
+.rating>i {
 	color: rgb(255, 230, 0);
 	font-size: 18px;
+}
+
+.img-decor {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
 }
 
 .formation:hover {
