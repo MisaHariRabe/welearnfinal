@@ -6,7 +6,7 @@
 :root {
 	--primary-color: black;
 	--secondary-color: rgb(81, 81, 255);
-	--accent-color: rgb(219, 52, 66);
+	--accent-color: #db3442;
 	--green-color: rgb(81, 235, 81);
 }
 
@@ -15,9 +15,14 @@
 	scroll-behavior: smooth;
 }
 
+
 h1 {
 	margin: 0;
 	font-size: 2em;
+}
+
+header {
+	z-index: 1;
 }
 
 nav ul {
@@ -39,11 +44,10 @@ nav ul li {
 nav a {
 	text-decoration: none;
 	font-size: 1.2em;
+	font-weight: bold;
 	transition: color 0.3s ease;
-	color: black;
+	color: rgb(255, 255, 255);
 	padding: 5px 5px;
-
-
 }
 
 nav a:hover {
@@ -125,6 +129,7 @@ a {
 	min-height: 20vh;
 	color: white;
 	background-color: rgb(26, 26, 26);
+	margin-top: 50px;
 }
 
 #footer>div:first-child {

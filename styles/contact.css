@@ -2,24 +2,26 @@
 
 #contact {
 	display: grid;
-	padding: 50px 100px;
-	background-color: var(--secondary-color);
+	padding: 60px 100px;
+	background-color: rgba(167, 167, 167, 0.308);
 	min-height: 80vh;
+	background-image: url("../assets/background.png");
+	background-size: cover;
 }
 
-#contact > h1 {
+#contact>h1 {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-weight: 100;
-	color: white;
+	font-weight: bold;
+	color: var(--accent-color);
 }
 
 .row {
 	display: grid;
-	grid-template-columns: 26% 26% 26%;
-	column-gap: 11%;
-	padding: 50px;
+	grid-template-rows: 26% 26% 26%;
+	row-gap: 5%;
+	padding: 20px;
 }
 
 .object {
@@ -29,25 +31,29 @@
 	text-align: center;
 	padding: 10px;
 	width: 100%;
-	height: 250px;
-	background-color: rgb(240, 240, 240);
+	height: 150px;
+	background-color: rgba(255, 255, 255, 0.144);
 	border-radius: 4px;
 }
 
-.object > i {
+.object>i {
 	font-size: 30px;
 	color: var(--accent-color);
 }
 
-.object > p > b {
-	color: var(--accent-color);
+.object>p>b {
+	color: rgb(255, 255, 255);
+}
+
+.object>p {
+	color: rgb(255, 255, 255);
 }
 
 .row-two {
 	display: grid;
-	grid-template-columns: 40% 40%;
+	grid-template-columns: 40% 55%;
 	place-items: center;
-	column-gap: 20%;
+	column-gap: 5%;
 	padding: 50px 32px;
 }
 
@@ -62,20 +68,16 @@
 	from {
 		transform: rotateY(0deg);
 	}
+
 	to {
 		transform: rotateY(360deg);
 	}
 }
 
-.img-contact-container > i {
+.img-contact-container>i {
 	font-size: 225px;
-	color: white;
+	color: var(--accent-color);
 	/* animation: imageScale 2s infinite alternate; */
-}
-
-.img-contact-container > h1 {
-	color: white;
-	font-weight: 600;
 }
 
 .right-hand-section {
@@ -85,41 +87,45 @@
 	align-content: center;
 	row-gap: 10px;
 	padding: 20px;
-	background-color: rgb(240, 240, 240);
 	border-radius: 4px;
 }
 
-.right-hand-section > h2 {
-	color: var(--secondary-color);
+.right-hand-section>h2 {
+	color: var(--accent-color);
+	font-weight: bold;
 }
 
-.right-hand-section > p {
-	color: black;
+
+.right-hand-section>p {
+	color: white;
 }
 
-.right-hand-section > form {
+.right-hand-section>form {
 	display: grid;
 	grid-auto-flow: row;
 	row-gap: 10%;
 }
 
-.right-hand-section > form > div {
+.right-hand-section>form>div {
 	display: grid;
-	grid-template-columns: 45% 45%;
-	column-gap: 10%;
+	grid-template-columns: 45% 50%;
+	column-gap: 5%;
 }
 
-.right-hand-section > form > div > input {
+.right-hand-section>form>div>input {
 	padding: 10px;
 	border: none;
+	border-radius: 5px;
 }
 
-.right-hand-section > form > textarea {
+.right-hand-section>form>textarea {
 	padding: 10px;
 	border: none;
+	margin: 0px;
+	width: 95%;
 }
 
-.right-hand-section > form > input[type="submit"] {
+.right-hand-section>form>input[type="submit"] {
 	padding: 10px;
 	background-color: var(--secondary-color);
 	font-weight: bold;

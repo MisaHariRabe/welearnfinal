@@ -2,7 +2,7 @@
 function sendMessage() {
     var messageInput = document.getElementById('message');
     var messageText = messageInput.value.trim();
-    var answerMessage = "Hello, how can we help you?";
+    var answerMessage = "Hello, how can WeLearn help you?";
 
     if (messageText !== '') {
         var discussion = document.querySelector('.discuss');

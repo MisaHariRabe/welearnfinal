@@ -8,14 +8,10 @@ body {
 	letter-spacing: 0.1rem;
 }
 
-header {
-	margin-bottom: 30px;
-}
-
 .banner-formation {
 	background: url("../assets/reseaux1.jpeg");
 	background-size: cover;
-	min-height: 350px;
+	min-height: 400px;
 }
 
 .info-formation {
@@ -108,5 +104,4 @@ section {
 	column-gap: 5%;
 	place-items: center;
 	/* padding: 20px; */
-
 }
